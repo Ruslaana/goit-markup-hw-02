@@ -10,6 +10,8 @@
     --accent-color: #4D5AE5;
     --white-background-color: #FFFFFF; 
     --footer-text-color: #E7E9FC;
+    --logo-text-color: #F4F4FD;
+
 }
 
 body {
@@ -26,20 +28,24 @@ color: var(--accent-color);
 .logo-black {
     color: var(--title-text-color);
 }
+.logo-white {
+    color: var(--white-background-color);
+}
 
 /* Site-nav */
 
-.site-nav .link {
+.site-list .link {
     color: var(--title-text-color);
 }
-.auth-nav .link {
+.contact-list .link {
     color: var(--primary-text-color);
 }
 
 /* Секція 1 */
 
-.section-dark {
-background-color: var(--title-text-color);
+.section {} 
+.dark {
+    background-color: var(--title-text-color);
 }
 .section-title {
     color: var(--white-background-color);
@@ -73,13 +79,6 @@ background-color: var(--title-text-color);
 
 /* Футер */
 
-.logo-blue {
-    color: var(--accent-color);
-    }
-    .logo-black {
-        color: var(--title-text-color);
-    }
-
-    .footer-text {
-        color: var(--footer-text-color);
-    }
+.footer-text {
+    color: var(--footer-text-color);
+}
