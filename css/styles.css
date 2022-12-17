@@ -1,4 +1,85 @@
-body > header {
-background-color: #2E2F42;
+/* колір основного тексту  #434455 */
+/* акцент #4D5AE5 */
+/* заголовок #FFFFFF */
+/* параграф #2E2F42  */
+
+
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --white-background-color: #FFFFFF; 
+    --footer-text-color: #E7E9FC;
 }
 
+body {
+background-color: #FFFFFF;
+color: var(--primary-text-color)
+}
+
+.list {
+    list-style: none;
+}
+.logo-blue {
+color: var(--accent-color);
+}
+.logo-black {
+    color: var(--title-text-color);
+}
+
+/* Site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.auth-nav .link {
+    color: var(--primary-text-color);
+}
+
+/* Секція 1 */
+
+.section-dark {
+background-color: var(--title-text-color);
+}
+.section-title {
+    color: var(--white-background-color);
+}
+.section-button {
+    color: var(--white-background-color);
+    background-color: var(--accent-color);
+}
+
+/* Опис */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+.text {
+    color: var(--primary-text-color);
+}
+
+.article {
+    color: var(--title-text-color);
+}
+
+/* Команда */
+
+.team-list .title {
+    color: var(--title-text-color);
+}
+.team-list .title .text {
+    color: var(--primary-text-color);
+}
+
+/* Футер */
+
+.logo-blue {
+    color: var(--accent-color);
+    }
+    .logo-black {
+        color: var(--title-text-color);
+    }
+
+    .footer-text {
+        color: var(--footer-text-color);
+    }
