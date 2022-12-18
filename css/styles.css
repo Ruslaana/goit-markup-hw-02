@@ -82,13 +82,14 @@ outline: none;
 .filter-btn{
     color: var(--accent-color);
     background-color: var(--logo-text-color);
+    cursor: pointer;
+    border: none;
 }
 .filter-btn:hover,
 .filter-btn:active,
 .filter-btn:focus {
     color: var(--white-background-color);
     background-color: var(--hover-text-color);
-    border: none;
 }
 
 /* Секція 1 */
@@ -115,6 +116,7 @@ outline: none;
     line-height: 1.1;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .section-button:hover,
