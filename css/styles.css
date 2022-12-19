@@ -158,6 +158,10 @@ outline: none;
 
 /* Команда */
 
+.section-team {
+    background-color: var(--logo-text-color);
+}
+
 .team-article {
     color: var(--title-text-color);
     font-family: 'Roboto';
